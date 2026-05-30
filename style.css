@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    color: #000; 
+    text-decoration: none;
+    
+}
+
+header{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    a { display: flex; 
+        width: 178px;
+        justify-content: center;
+        align-items: center;
+        gap: 4.36px;
+
+        span{
+            font-size: 19.85px;
+            font-weight: 600;
+            color:#C92071 ;
+
+        }
+
+    }
+}
+
