@@ -1,32 +1,36 @@
 * {
     margin: 0;
-    color: #000; 
+    padding: 0;
+    color: #000;
     text-decoration: none;
     font-family: sans-serif;
+    list-style: none;
 }
 
-header{
+header {
     height: 64px;
     display: flex;
     justify-content: center;
-    a { display: flex; 
+
+    a {
+        display: flex;
         width: 178px;
         justify-content: center;
         align-items: center;
         gap: 4.36px;
 
-        span{
+        span {
             font-size: 19.85px;
             font-weight: 600;
-            color:#C92071 ;
+            color: #C92071;
 
         }
 
     }
 }
 
-main{
-    background: linear-gradient(#B5B6F2 , #EFEFFF );
+main {
+    background: linear-gradient(#B5B6F2, #EFEFFF);
     padding: 63px 30px 80px;
 
     form {
@@ -35,68 +39,122 @@ main{
         display: flex;
         flex-direction: column;
         gap: 30px;
-        border-radius: 4px:
-         
-        
-        }
-        .title{
-            h1{
-                font-size: 22px;
-                line-height: 34px;
-                letter-spacing: 2px;
-                text-align: center;
-                color: #1f1f1f;
-            }
+        border-radius: 4px;
 
-            p{
-                font-size: 14px;
-                line-height: 24px;
-                letter-spacing: .25px;
-                text-align: center;
-                collor: #474747
-            }
+
+    }
+
+    .title {
+        h1 {
+            font-size: 22px;
+            line-height: 34px;
+            letter-spacing: 2px;
+            text-align: center;
+            color: #1f1f1f;
         }
-        .input{
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: .25px;
+            text-align: center;
+            color: #474747
+        }
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        div {
             display: flex;
-            flex-direction:column ;
-            gap: 20px;
+            flex-direction: column;
+            gap: 5px;
 
-           div{
-                display: flex;
-                flex-direction:column;
-                gap: 5px; 
-
-                label{
-                    font-size: 12px;
-                    font-weight: 700px;
-                    line-height: 24px;
-                    letter-spacing: .75px;
-                    color: #474747;
-                }
+            label {
+                font-size: 12px;
+                font-weight: 700px;
+                line-height: 24px;
+                letter-spacing: .75px;
+                color: #474747;
+            }
 
 
-            
-                input { 
+
+            input {
+
+                border: none;
+                border-radius: 8px;
+                background-color: #4747470a;
+                font-size: 16px;
+                padding: 16px 13px;
+                line-height: 28px;
+                outline-color: #C92071;
+
+            }
+        }
+
+    }
+
+    p{
+        a{
+            font-size: 14px;
+            line-height: 22px;
+            text-decoration: underline;
+            letter-spacing: .25px;
+            color: #474747;
+        }
+    }
+
+    button{
+        height: 48px;
+        background-color: #C92071;
+        border: none;
+        border-radius: 8px;
+        color: #f5f5f5;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: .75px;
+       
+    }
+    
+    .others{
+        margin: auto;
+
+        p{
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: .25px;
+            color: #474747;
+
+        }
+
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            align-items: center;
+            margin-top: 20px;
+
+            li{ 
                 
-                    border: none;
-                    border-radius: 8px;
-                     background-color:#4747470a;
-                    font-size: 16px;
-                    padding: 16px 13px;
-                    line-height: 28px;
+                a{
+                    display: block;
+                    height: fit-content;
+
+                    .email-icon {
+                        margin-top: 2px;
+                    }
+                    
                     
                 }
-                
-           
-        
-            
-        
-        
-        
-
-            
+            }
+          
         }
-
         
     }
+}
+
+footer{
 }
