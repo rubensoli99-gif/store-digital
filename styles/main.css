@@ -13,6 +13,10 @@ main {
 
     }
 
+    .banner{
+        display: none;
+    }
+
     .title {
         h1 {
             font-size: 22px;
